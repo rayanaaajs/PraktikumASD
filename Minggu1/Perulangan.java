@@ -12,7 +12,7 @@ public class Perulangan {
                 System.out.print(" # ");
             } else if ( i % 2 != 0) {
                 System.out.print(" * ");
-            } else if (i % 2 == 0 & i % 3 != 0 ){
+            } else if (i % 2 == 0 && i % 3 != 0 ){
                 System.out.print(" "+ i + " ");
             }
             
