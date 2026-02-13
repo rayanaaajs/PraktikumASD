@@ -54,7 +54,7 @@ public static void main(String[] args) {
             System.out.println("Nilai Huruf : " + nilaiHuruf);
             
             System.out.println("==============================");
-            System.out.println("==============================");
+            System.out.println("========================");
     
             if (nilaiHuruf.equals("D") || nilaiHuruf.equals("E")   ) {
                 
