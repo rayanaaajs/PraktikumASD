@@ -30,13 +30,6 @@ public class MahasiswaDemo25 {
             System.out.println("Data Mahasiswa Ke-" + (i + 1));
             arrayOfMahasiswa25[i].cetakInfo();
         }
-      
-
-        Mahasiswa25[] myArrayOfMahasiswa25 = new Mahasiswa25[3];
-        myArrayOfMahasiswa25[0].nim = "244107060033";
-        myArrayOfMahasiswa25[0].nama = "AGNES TITANIA KINANTI";
-        myArrayOfMahasiswa25[0].kelas = "SIB-1E";
-        myArrayOfMahasiswa25[0].ipk = (float) 3.75;
 
 
         sc.close();
