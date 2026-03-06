@@ -2,7 +2,7 @@ package Jobsheet3;
 
 import java.util.Scanner;
 
-public class MataKuliahDemo {
+public class MataKuliahDemo25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
