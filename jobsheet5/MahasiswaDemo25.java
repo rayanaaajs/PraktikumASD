@@ -18,11 +18,11 @@ public class MahasiswaDemo25 {
             String kelas = sc.nextLine();
 
             System.out.print("IPK : ");
-            double ipk = sc.nextDouble();
-            sc.nextLine();
+            double ipk = Double.parseDouble(sc.nextLine());
 
             Mahasiswa25 m = new Mahasiswa25(nama, nim, kelas, ipk);
             list.tambah(m);
+            System.out.println();
         }
 
 
