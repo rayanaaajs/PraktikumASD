@@ -1,11 +1,11 @@
 package jobsheet5;
 
-public class sorting26 {
+public class sorting25 {
     int [] data;
     int jumData;
 
 
-    sorting26 (int Data[], int jmlData){
+    sorting25 (int Data[], int jmlData){
         jumData = jmlData;
         data = new int[jmlData];
         for (int i = 0; i < jumData; i++) {
