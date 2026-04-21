@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PeminjamanDemo {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         SistemPeminjaman operasi = new SistemPeminjaman(); // Membuat objek untuk memanggil method sorting & searching
 
         // a. Inisialisasi Data Mahasiswa
@@ -42,8 +42,8 @@ public class PeminjamanDemo {
             System.out.println("5. Cari Berdasarkan NIM");
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
-            pilihan = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            pilihan = input.nextInt();
+            input.nextLine(); // consume newline
 
             switch (pilihan) {
                 case 1:
@@ -77,7 +77,7 @@ public class PeminjamanDemo {
 
                 case 5:
                     System.out.print("\nMasukkan NIM: ");
-                    String cariNIM = scanner.nextLine();
+                    String cariNIM = input.nextLine();
                     operasi.binarySearchNIM(arrPeminjaman, cariNIM); // Memanggil method dari class OperasiPeminjaman
                     break;
 
@@ -90,6 +90,6 @@ public class PeminjamanDemo {
             }
         } while (pilihan != 0);
 
-        scanner.close();
+        input.close();
     }
 }
