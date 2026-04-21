@@ -1,4 +1,4 @@
-package Kuis;
+package Kuis1;
 
 public class kuis25 {
     String idPegawai, nama;

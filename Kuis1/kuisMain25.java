@@ -1,4 +1,4 @@
-package Kuis;
+package Kuis1;
 
 public class kuisMain25 {
     public static void main(String[] args) {
