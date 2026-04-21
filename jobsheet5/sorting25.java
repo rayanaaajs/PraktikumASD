@@ -48,7 +48,7 @@ public class sorting25 {
     }
 
     void insertionSort(){
-        for (int i = 1; i < data.length-1; i++) {
+        for (int i = 1; i < data.length; i++) {
             int temp = data[i];
             int j = i-1;
             while (j >= 0 && data[j] > temp) {
