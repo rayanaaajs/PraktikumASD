@@ -26,7 +26,7 @@ public class QueueMain {
             pilih = sc.nextInt();
             switch (pilih){
                 case 1:
-                    System.out.println("Masukkan Data baru: ");
+                    System.out.print("Masukkan Data baru: ");
                     int dataMasuk = sc.nextInt();
                     Q.Enqueue(dataMasuk);
                     break;
