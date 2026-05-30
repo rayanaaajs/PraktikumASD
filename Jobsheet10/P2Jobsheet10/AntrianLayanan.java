@@ -79,6 +79,15 @@ public class AntrianLayanan {
         return size;
     }
 
+    public void lihatAkhir(){
+        if (isEmpty()) {
+            System.out.println("Antrian Kosong");
+        } else {
+            System.out.println("Mahasiwa terakhir: ");
+            System.out.println("NIM - NAMA - PRODI - KELAS");
+            data[rear].tampilkanData();
+        }
+    }
 
 
     
